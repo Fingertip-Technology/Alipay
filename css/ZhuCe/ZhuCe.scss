@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin pos($p:absolute) {
+  position: $p;
+}
+
+.ZhuCebox {
+  width: 350px;
+  height: 500px;
+  //border: 1px solid black;
+  @include pos();
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column;
+  & > .box {
+    width: 100%;
+    height: 100%;
+    //border: 1px solid black;
+    header {
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 2px solid #2BB8AA;
+    }
+    .content {
+      width: 80%;
+      margin: 10px auto;
+      //border:1px solid black;
+      & > div {
+        width: 100%;
+        height: 50px;
+        //border:1px solid black;
+        &:nth-of-type(2) {
+          height: 35px;
+          //line-height: 55px;
+        }
+        &:nth-of-type(4) {
+          height: 65px;
+        }
+        &:nth-of-type(5) {
+          padding-top: 5px;
+        }
+        &:nth-of-type(6) {
+          line-height: 55px;
+          & > button {
+            background: #2EBDAF;
+            border: 0;
+            padding: 8px 10px;
+            outline: none;
+            & > a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+        &:nth-of-type(7) {
+          line-height: 55px;
+          color: #2BB8AA;
+        }
+        & > p {
+          font-size: 15px;
+        }
+        & > input {
+          width: 100%;
+          height: 20px;
+          border: 1px solid #DCDCDC;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      padding-top: 10px;
+      border-top: 1px solid #EEEEEE;
+      color: #999999;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ZhuCebox {
+    width: 100%;
+    height: 100%;
+    //border:1px solid black;
+    @include pos();
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column;
+  }
+}

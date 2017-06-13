@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a, p, input, div, span {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style-type: none; }
+
+.KouBeibox {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .KouBeibox header {
+    width: 100%;
+    height: 45px;
+    background: #1B82D1;
+    position: relative; }
+    .KouBeibox header > p {
+      font-size: 14px;
+      position: absolute;
+      top: 30%;
+      left: 5%; }
+      .KouBeibox header > p > a {
+        color: white; }
+    .KouBeibox header > input {
+      width: 65%;
+      height: 70%;
+      padding-left: 8%;
+      border: 0;
+      border-radius: 3px;
+      background: #2F8DD6;
+      outline: none;
+      position: absolute;
+      top: 15%;
+      left: 20%; }
+    .KouBeibox header > img {
+      position: absolute;
+      z-index: 5; }
+      .KouBeibox header > img:nth-of-type(1) {
+        width: 8px;
+        height: 8px;
+        left: 15%;
+        top: 50%; }
+      .KouBeibox header > img:nth-of-type(2) {
+        width: 16px;
+        height: 16px;
+        left: 22%;
+        top: 32%; }
+      .KouBeibox header > img:nth-of-type(3) {
+        width: 25px;
+        height: 25px;
+        right: 5%;
+        top: 22%; }
+    .KouBeibox header > .dianD {
+      width: 28%;
+      position: absolute;
+      top: 100%;
+      right: 3%;
+      background: #FFFFFF;
+      border-radius: 3px;
+      display: none;
+      z-index: 101;
+      box-shadow: 1px 1px 1px 1px #939393; }
+      .KouBeibox header > .dianD > p {
+        position: absolute;
+        top: -15%;
+        right: 13%;
+        border-top: 10px solid rgba(255, 255, 255, 0);
+        border-bottom: 8px solid #FFFFFF;
+        border-left: 8px solid rgba(255, 255, 255, 0);
+        border-right: 8px solid rgba(255, 255, 255, 0); }
+      .KouBeibox header > .dianD > ul {
+        width: 95%;
+        margin: 2%;
+        display: flex;
+        -webkit-flex-direction: column; }
+        .KouBeibox header > .dianD > ul > li {
+          padding: 3% 0;
+          padding-left: 30%;
+          position: relative;
+          border-bottom: 1px solid #EBEBEB; }
+          .KouBeibox header > .dianD > ul > li:last-child {
+            border-bottom: 0px solid #EBEBEB; }
+          .KouBeibox header > .dianD > ul > li > a > img {
+            width: 16px;
+            height: 17px;
+            position: absolute;
+            left: 6%;
+            top: 8%; }
+          .KouBeibox header > .dianD > ul > li > a > p {
+            font-size: 13px;
+            color: #353535; }
+  .KouBeibox #content {
+    width: 100%;
+    height: 100%;
+    -webkit-flex: 1;
+    background: #EAEEEF;
+    position: relative;
+    overflow: auto; }
+    .KouBeibox #content .content_box {
+      width: 100%;
+      height: 100%; }
+      .KouBeibox #content .content_box > .box_one {
+        width: 100%;
+        height: 175px;
+        background: white;
+        position: relative;
+        overflow: hidden; }
+        .KouBeibox #content .content_box > .box_one > .ul_box_one {
+          width: 95%;
+          position: absolute;
+          left: 2.5%; }
+          .KouBeibox #content .content_box > .box_one > .ul_box_one > ul {
+            display: flex;
+            -webkit-justify-content: space-around;
+            text-align: center;
+            padding-top: 3%; }
+            .KouBeibox #content .content_box > .box_one > .ul_box_one > ul > li > a > img {
+              width: 42px;
+              height: 42px; }
+            .KouBeibox #content .content_box > .box_one > .ul_box_one > ul > li > a > p {
+              font-size: 10px;
+              color: #2A2A2A; }
+        .KouBeibox #content .content_box > .box_one > .ul_box_two {
+          width: 95%;
+          left: 100%;
+          position: absolute; }
+          .KouBeibox #content .content_box > .box_one > .ul_box_two > ul {
+            display: flex;
+            -webkit-justify-content: space-around;
+            text-align: center;
+            padding-top: 3%; }
+            .KouBeibox #content .content_box > .box_one > .ul_box_two > ul > li > a > img {
+              width: 42px;
+              height: 42px; }
+            .KouBeibox #content .content_box > .box_one > .ul_box_two > ul > li > a > p {
+              font-size: 10px;
+              color: #2A2A2A; }
+        .KouBeibox #content .content_box > .box_one > .box_two {
+          width: 95%;
+          height: 10%;
+          position: absolute;
+          bottom: 5%;
+          left: 2.5%; }
+          .KouBeibox #content .content_box > .box_one > .box_two > ul {
+            width: 12%;
+            padding: 2%;
+            display: flex;
+            -webkit-justify-content: space-around;
+            margin: 0 auto; }
+            .KouBeibox #content .content_box > .box_one > .box_two > ul > li {
+              width: 6px;
+              height: 6px;
+              border-radius: 50%; }
+              .KouBeibox #content .content_box > .box_one > .box_two > ul > li:nth-of-type(1) {
+                background: #FB6165; }
+              .KouBeibox #content .content_box > .box_one > .box_two > ul > li:nth-of-type(2) {
+                background: #CCCCCC; }
+      .KouBeibox #content .content_box > .box_two {
+        border-top: 1px solid #E9E9E9;
+        background: white;
+        overflow: hidden; }
+        .KouBeibox #content .content_box > .box_two > dl {
+          width: 100%;
+          display: flex; }
+          .KouBeibox #content .content_box > .box_two > dl > dt {
+            width: 30%;
+            margin: 2% 2%;
+            position: relative;
+            border-right: 1px solid #EEEEEE; }
+            .KouBeibox #content .content_box > .box_two > dl > dt > a > img {
+              margin-left: 8%; }
+              .KouBeibox #content .content_box > .box_two > dl > dt > a > img:nth-of-type(1) {
+                width: 74px;
+                height: 32px; }
+              .KouBeibox #content .content_box > .box_two > dl > dt > a > img:nth-of-type(2) {
+                width: 24px;
+                height: 20px;
+                margin-left: 8%; }
+            .KouBeibox #content .content_box > .box_two > dl > dt > a > span {
+              font-size: 13px;
+              position: absolute;
+              right: 16%;
+              bottom: 8%; }
+          .KouBeibox #content .content_box > .box_two > dl > dd {
+            width: 70%;
+            height: 50px;
+            overflow: hidden;
+            margin-top: 4%;
+            position: relative; }
+            .KouBeibox #content .content_box > .box_two > dl > dd > a {
+              width: 100%;
+              height: 100%;
+              position: absolute; }
+              .KouBeibox #content .content_box > .box_two > dl > dd > a > img {
+                width: 100%;
+                height: 100%; }
+      .KouBeibox #content .content_box > .box_three {
+        width: 100%;
+        background: white;
+        margin-top: 3%;
+        padding: 1% 5%;
+        text-align: center; }
+        .KouBeibox #content .content_box > .box_three > p {
+          position: relative; }
+          .KouBeibox #content .content_box > .box_three > p:nth-of-type(1) {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF5656;
+            margin-top: 1%; }
+          .KouBeibox #content .content_box > .box_three > p:nth-of-type(2) {
+            font-size: 12px;
+            color: #939393;
+            margin: 2% 0; }
+          .KouBeibox #content .content_box > .box_three > p > img {
+            position: absolute; }
+            .KouBeibox #content .content_box > .box_three > p > img:nth-of-type(1) {
+              width: 13px;
+              height: 13px;
+              top: 28%;
+              left: 35%; }
+            .KouBeibox #content .content_box > .box_three > p > img:nth-of-type(2) {
+              width: 13px;
+              height: 13px;
+              top: 28%;
+              right: 35%; }
+        .KouBeibox #content .content_box > .box_three > .LunBo {
+          display: flex;
+          padding-bottom: 3%; }
+          .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_one {
+            width: 48%;
+            height: 145px;
+            margin-right: 1.5%;
+            text-align: center;
+            position: relative;
+            overflow: hidden; }
+            .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_one > ul {
+              padding-right: 5%;
+              width: 100%;
+              height: 100%;
+              position: absolute; }
+              .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_one > ul > li {
+                width: 100%;
+                height: 100%;
+                position: absolute; }
+                .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_one > ul > li > a {
+                  width: 100%;
+                  height: 100%; }
+                  .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_one > ul > li > a > img {
+                    width: 100%;
+                    height: 100%; }
+          .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two {
+            width: 48%;
+            height: 144px;
+            display: flex;
+            -webkit-flex-direction: column; }
+            .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_one {
+              width: 100%;
+              height: 50%;
+              padding-bottom: 3%;
+              margin-bottom: 1.5%;
+              position: relative;
+              overflow: hidden; }
+              .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_one > ul {
+                width: 100%;
+                height: 100%;
+                position: absolute; }
+                .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_one > ul > li {
+                  width: 100%;
+                  height: 100%;
+                  position: absolute; }
+                  .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_one > ul > li > a {
+                    width: 100%;
+                    height: 100%; }
+                    .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_one > ul > li > a > img {
+                      width: 100%;
+                      height: 100%; }
+            .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_two {
+              width: 100%;
+              height: 50%;
+              position: relative;
+              overflow: hidden; }
+              .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_two > ul {
+                width: 100%;
+                height: 100%;
+                position: absolute; }
+                .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_two > ul > li {
+                  width: 100%;
+                  height: 100%;
+                  position: absolute; }
+                  .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_two > ul > li > a {
+                    width: 100%;
+                    height: 100%; }
+                    .KouBeibox #content .content_box > .box_three > .LunBo > .LunBo_two > .box_two > ul > li > a > img {
+                      width: 100%;
+                      height: 100%; }
+      .KouBeibox #content .content_box > .box_four {
+        width: 100%;
+        background: white;
+        margin-top: 3%; }
+        .KouBeibox #content .content_box > .box_four > .box_one {
+          width: 95%;
+          padding: 5% 1%;
+          margin: 0 auto;
+          position: relative; }
+          .KouBeibox #content .content_box > .box_four > .box_one > span {
+            position: absolute; }
+            .KouBeibox #content .content_box > .box_four > .box_one > span:nth-of-type(1) {
+              font-size: 14px;
+              color: #FF3A42;
+              left: 1.5%;
+              top: 30%; }
+            .KouBeibox #content .content_box > .box_four > .box_one > span:nth-of-type(2) {
+              font-size: 10px;
+              color: #8A8A8A;
+              left: 20%;
+              top: 42%; }
+            .KouBeibox #content .content_box > .box_four > .box_one > span:nth-of-type(3) {
+              font-size: 11px;
+              color: #F44C53;
+              right: 7%;
+              top: 35%; }
+          .KouBeibox #content .content_box > .box_four > .box_one > img {
+            position: absolute; }
+            .KouBeibox #content .content_box > .box_four > .box_one > img:nth-of-type(1) {
+              width: 12px;
+              height: 13px;
+              right: 25%;
+              top: 35%; }
+            .KouBeibox #content .content_box > .box_four > .box_one > img:nth-of-type(2) {
+              width: 9px;
+              height: 14px;
+              right: 2.5%;
+              top: 32%; }
+        .KouBeibox #content .content_box > .box_four > ul {
+          display: flex;
+          -webkit-justify-content: space-around;
+          margin-top: 2%;
+          margin-bottom: 2%;
+          padding-bottom: 3%;
+          text-align: center; }
+          .KouBeibox #content .content_box > .box_four > ul > li > a > img {
+            width: 92px;
+            height: 75px; }
+          .KouBeibox #content .content_box > .box_four > ul > li > a > p {
+            font-size: 12px;
+            color: #171717; }
+      .KouBeibox #content .content_box > .box_five {
+        width: 100%;
+        background: white;
+        margin-top: 3%; }
+        .KouBeibox #content .content_box > .box_five > .box_one {
+          width: 95%;
+          padding: 5% 1%;
+          margin: 0 auto;
+          position: relative; }
+          .KouBeibox #content .content_box > .box_five > .box_one > span {
+            position: absolute; }
+            .KouBeibox #content .content_box > .box_five > .box_one > span:nth-of-type(1) {
+              font-size: 14px;
+              color: #444444;
+              left: 1.5%;
+              top: 30%; }
+            .KouBeibox #content .content_box > .box_five > .box_one > span:nth-of-type(2) {
+              font-size: 10px;
+              color: #8A8A8A;
+              left: 25%;
+              top: 42%; }
+        .KouBeibox #content .content_box > .box_five > ul {
+          display: flex;
+          -webkit-justify-content: space-around;
+          margin-top: 2%;
+          padding-bottom: 3%;
+          text-align: center; }
+          .KouBeibox #content .content_box > .box_five > ul > li > a > img {
+            width: 92px;
+            height: 75px; }
+        .KouBeibox #content .content_box > .box_five > .box_two {
+          width: 100%;
+          text-align: center;
+          padding-bottom: 4%; }
+          .KouBeibox #content .content_box > .box_five > .box_two > p {
+            width: 35%;
+            font-size: 13px;
+            border: 1px solid #D9D9D9;
+            margin: 0 auto;
+            padding: 2%; }
+            .KouBeibox #content .content_box > .box_five > .box_two > p > a {
+              color: #202020; }
+      .KouBeibox #content .content_box > .box_six {
+        width: 100%;
+        height: 35%;
+        overflow: hidden;
+        position: relative; }
+        .KouBeibox #content .content_box > .box_six > #lb {
+          width: 100%;
+          height: 100%;
+          position: absolute; }
+          .KouBeibox #content .content_box > .box_six > #lb > li {
+            width: 100%;
+            height: 100%;
+            position: absolute; }
+            .KouBeibox #content .content_box > .box_six > #lb > li:nth-of-type(2) {
+              left: 100%; }
+            .KouBeibox #content .content_box > .box_six > #lb > li > img {
+              width: 95%;
+              height: 95%;
+              position: absolute;
+              top: 5%;
+              left: 3%; }
+        .KouBeibox #content .content_box > .box_six > .xiaoDian {
+          width: 10%;
+          height: 10px;
+          position: absolute;
+          bottom: 3.5%;
+          left: 50%;
+          margin-left: -14px;
+          display: flex;
+          -webkit-justify-content: space-around;
+          line-height: 10px; }
+          .KouBeibox #content .content_box > .box_six > .xiaoDian > li {
+            width: 6px;
+            height: 6px;
+            background: white;
+            border-radius: 50%; }
+  .KouBeibox footer {
+    width: 100%;
+    height: 48px; }
+    .KouBeibox footer > ul {
+      display: flex;
+      -webkit-justify-content: space-around;
+      margin-top: 3px;
+      text-align: center; }
+      .KouBeibox footer > ul > li > a > p {
+        font-size: 10px;
+        color: #A6A6A7; }
+      .KouBeibox footer > ul > li > a > img {
+        width: 24px;
+        height: 23px; }
+
+@media screen and (max-width: 420px) {
+  .KouBeibox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column; } }
+
+/*# sourceMappingURL=KouBei.css.map */

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a, p, input, div, span {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style-type: none; }
+
+.HuanKuanbox {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .HuanKuanbox header {
+    width: 100%;
+    height: 45px;
+    box-shadow: 0 1px 2px 1px #E9E9E9;
+    z-index: 10;
+    position: relative; }
+    .HuanKuanbox header > a:nth-of-type(1) > img {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      width: 17px;
+      height: 17px; }
+    .HuanKuanbox header > a:nth-of-type(2) > img {
+      position: absolute;
+      right: 3%;
+      top: 43%;
+      margin-top: -2%;
+      width: 10px;
+      height: 21px; }
+    .HuanKuanbox header > p {
+      position: absolute;
+      font-size: 14px;
+      border-left: 1px solid #EBEBEB;
+      padding-left: 5%;
+      font-weight: bold;
+      top: 30%;
+      left: 13%; }
+  .HuanKuanbox .content {
+    width: 100%;
+    height: 100%;
+    -webkit-flex: 1;
+    background: #F5F5F9;
+    position: relative;
+    overflow: auto; }
+    .HuanKuanbox .content .content_box {
+      width: 93%;
+      margin-left: 4%;
+      margin-top: 8%; }
+      .HuanKuanbox .content .content_box > .box_one {
+        width: 100%;
+        border: 1px dashed #DFDEE3;
+        border-radius: 6px;
+        text-align: center;
+        position: relative; }
+        .HuanKuanbox .content .content_box > .box_one > p {
+          padding: 20% 15%;
+          font-size: 13px;
+          color: #919192; }
+          .HuanKuanbox .content .content_box > .box_one > p > img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -17%;
+            margin-top: -3%;
+            width: 18px;
+            height: 18px; }
+      .HuanKuanbox .content .content_box > .box_two {
+        text-align: center;
+        margin-top: 4%; }
+        .HuanKuanbox .content .content_box > .box_two > ul {
+          display: flex;
+          -webkit-justify-content: space-around; }
+          .HuanKuanbox .content .content_box > .box_two > ul > li > a {
+            font-size: 13px;
+            color: #919192; }
+            .HuanKuanbox .content .content_box > .box_two > ul > li > a > img {
+              width: 24px;
+              height: 23px; }
+
+@media screen and (max-width: 420px) {
+  .HuanKuanbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column; } }
+
+/*# sourceMappingURL=HuanKuan.css.map */

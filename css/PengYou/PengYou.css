@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a, p, input, div, span {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style-type: none; }
+
+.PengYoubox {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .PengYoubox header {
+    width: 100%;
+    height: 45px;
+    background: #1B82D1;
+    position: relative; }
+    .PengYoubox header > p {
+      position: absolute;
+      font-size: 15px;
+      top: 28%;
+      left: 5%;
+      color: white; }
+    .PengYoubox header > img {
+      position: absolute;
+      z-index: 5; }
+      .PengYoubox header > img:nth-of-type(1) {
+        width: 21px;
+        height: 21px;
+        top: 25%;
+        right: 25%; }
+      .PengYoubox header > img:nth-of-type(2) {
+        top: 25%;
+        right: 15%;
+        width: 22px;
+        height: 21px; }
+      .PengYoubox header > img:nth-of-type(3) {
+        top: 25%;
+        right: 5%;
+        width: 20px;
+        height: 20px; }
+    .PengYoubox header > .jiaHao {
+      width: 28%;
+      position: absolute;
+      top: 100%;
+      right: 3%;
+      background: #FFFFFF;
+      border-radius: 3px;
+      display: none;
+      z-index: 101;
+      box-shadow: 1px 1px 1px 1px #939393; }
+      .PengYoubox header > .jiaHao > p {
+        position: absolute;
+        top: -18%;
+        right: 8%;
+        border-top: 10px solid rgba(255, 255, 255, 0);
+        border-bottom: 8px solid #FFFFFF;
+        border-left: 8px solid rgba(255, 255, 255, 0);
+        border-right: 8px solid rgba(255, 255, 255, 0); }
+      .PengYoubox header > .jiaHao > ul {
+        width: 95%;
+        margin: 2%;
+        display: flex;
+        -webkit-flex-direction: column; }
+        .PengYoubox header > .jiaHao > ul > li {
+          padding: 3% 0;
+          padding-left: 30%;
+          position: relative;
+          border-bottom: 1px solid #EBEBEB; }
+          .PengYoubox header > .jiaHao > ul > li:last-child {
+            border-bottom: 0px solid #EBEBEB; }
+          .PengYoubox header > .jiaHao > ul > li > a > img {
+            width: 16px;
+            height: 17px;
+            position: absolute;
+            left: 6%;
+            top: 8%; }
+          .PengYoubox header > .jiaHao > ul > li > a > p {
+            font-size: 13px;
+            color: #353535; }
+  .PengYoubox .content {
+    width: 100%;
+    height: 100%;
+    -webkit-flex: 1;
+    background: #EAEEEF;
+    position: relative;
+    overflow: auto; }
+    .PengYoubox .content .content_box {
+      width: 100%; }
+      .PengYoubox .content .content_box > .box_one {
+        width: 100%;
+        background: white;
+        border-bottom: 1px solid #F8F9F9; }
+        .PengYoubox .content .content_box > .box_one:last-child {
+          border-bottom: 0px solid #F8F9F9; }
+        .PengYoubox .content .content_box > .box_one > dl {
+          display: flex;
+          padding: 2% 5%; }
+          .PengYoubox .content .content_box > .box_one > dl > dt {
+            padding-right: 3%; }
+            .PengYoubox .content .content_box > .box_one > dl > dt > img {
+              width: 44px;
+              height: 44px; }
+          .PengYoubox .content .content_box > .box_one > dl > dd {
+            width: 100%;
+            position: relative;
+            padding-top: 1%; }
+            .PengYoubox .content .content_box > .box_one > dl > dd > p:nth-of-type(1) {
+              font-size: 14px;
+              color: #585858; }
+              .PengYoubox .content .content_box > .box_one > dl > dd > p:nth-of-type(1) > span {
+                font-size: 11px;
+                color: #C2C2C2;
+                position: absolute;
+                right: 0;
+                top: 5%; }
+            .PengYoubox .content .content_box > .box_one > dl > dd > p:nth-of-type(2) {
+              font-size: 11px;
+              color: #C2C2C2;
+              margin-top: 3%; }
+      .PengYoubox .content .content_box > .box_two {
+        width: 80%;
+        background: white;
+        border: 1px solid #5AC6F1;
+        text-align: center;
+        margin: 5% auto;
+        padding: 3% 9%;
+        position: relative; }
+        .PengYoubox .content .content_box > .box_two > p {
+          font-size: 16px;
+          color: #108EE9; }
+        .PengYoubox .content .content_box > .box_two > img {
+          position: absolute; }
+          .PengYoubox .content .content_box > .box_two > img:nth-of-type(1) {
+            width: 17px;
+            height: 17px;
+            top: 32%;
+            left: 22%; }
+          .PengYoubox .content .content_box > .box_two > img:nth-of-type(2) {
+            width: 10px;
+            height: 15px;
+            top: 35%;
+            right: 25%; }
+  .PengYoubox footer {
+    width: 100%;
+    height: 48px; }
+    .PengYoubox footer > ul {
+      display: flex;
+      -webkit-justify-content: space-around;
+      margin-top: 3px;
+      text-align: center; }
+      .PengYoubox footer > ul > li > a > p {
+        font-size: 10px;
+        color: #A6A6A7; }
+      .PengYoubox footer > ul > li > a > img {
+        width: 24px;
+        height: 23px; }
+
+@media screen and (max-width: 420px) {
+  .PengYoubox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column; } }
+
+/*# sourceMappingURL=PengYou.css.map */

@@ -1,0 +1,36 @@
+{
+  "ulone": {
+    "home":"阿萨德",
+    "ul1": [
+      {"img": "img/KouBei/meishi.png", "title": "美食"},
+      {"img": "img/KouBei/kuaicang.png", "title": "快餐小吃"},
+      {"img": "img/KouBei/huoguo.png", "title": "火锅"},
+      {"img": "img/KouBei/shuiguo.png", "title": "水果/零食"},
+      {"img": "img/KouBei/xiuxianyule.png", "title": "休闲娱乐"}
+    ],
+    "ul2":[
+      {"img": "img/KouBei/waimai.png", "title": "外卖"},
+      {"img": "img/KouBei/chaoshi.png", "title": "超市"},
+      {"img": "img/KouBei/KTV.png", "title": "KTV"},
+      {"img": "img/KouBei/liren.png", "title": "丽人"},
+      {"img": "img/KouBei/dianying.png", "title": "电影"}
+    ]
+  },
+  "ultwo": {
+    "home":"阿萨德",
+    "ul1": [
+      {"img": "img/KouBei/qinzi.png", "title": "亲子"},
+      {"img": "img/KouBei/sheying.png", "title": "摄影"},
+      {"img": "img/KouBei/jiehun.png", "title": "结婚"},
+      {"img": "img/KouBei/yundongjianshen.png", "title": "运动健身"},
+      {"img": "img/KouBei/zuliaoyangsheng.png", "title": "足疗养生"}
+    ],
+    "ul2":[
+      {"img": "img/KouBei/xiyi.png", "title": "洗衣"},
+      {"img": "img/KouBei/chongwu.png", "title": "宠物"},
+      {"img": "img/KouBei/mianbaotiandian.png", "title": "面包甜点"},
+      {"img": "img/KouBei/jiudianyuding.png", "title": "酒店预订"},
+      {"img": "img/KouBei/zhoumoyou.png", "title": "周末游"}
+    ]
+  }
+}

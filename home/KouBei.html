@@ -1,0 +1,253 @@
+
+<body ng-controller="KouBeiController">
+
+<!--口碑-->
+<div class="KouBeibox">
+    <header>
+        <p><a href="#">北京</a></p>
+        <img src="img/KouBei/youjiao.png">
+        <img src="img/KouBei/sousou.png">
+        <img src="img/KouBei/right.png" class="DianJi">
+        <input type="text" placeholder="麦当劳">
+        <div class="dianD">
+            <p></p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/KouBei/daipingjia.png" alt="">
+                        <p>待评价</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/KouBei/wodepingjia.png" alt="">
+                        <p>我的评价</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/KouBei/wodedingdan.png" alt="">
+                        <p>我的订单</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/KouBei/wodeguanzhu.png" alt="">
+                        <p>我的关注</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/KouBei/bangzhu.png" alt="">
+                        <p>帮助</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div id="content">
+        <div class="content_box">
+            <div class="box_one" id="ul">
+                <div class="ul_box_one">
+                    <ul>
+                        <li ng-repeat="i in ul1">
+                            <a href="#">
+                                <img src="{{i.img}}">
+                                <p>{{i.title}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li ng-repeat="o in ul2">
+                            <a href="#">
+                                <img src="{{o.img}}" alt="">
+                                <p>{{o.title}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ul_box_two">
+                    <ul>
+                        <li ng-repeat="y in ul3">
+                            <a href="#">
+                                <img src="{{y.img}}" alt="">
+                                <p>{{y.title}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li ng-repeat="u in ul4">
+                            <a href="#">
+                                <img src="{{u.img}}" alt="">
+                                <p>{{u.title}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box_two">
+                    <ul id="yuan">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box_two">
+                <dl>
+                    <dt>
+                        <a href="#">
+                            <img src="img/KouBei/xinren.png">
+                            <br>
+                            <img src="img/KouBei/touxiang.png" alt="">
+                            <span>冷情绪。</span>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="img/KouBei/LB-top-one.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/KouBei/LB-top-two.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/KouBei/LB-top-three.png" alt="">
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="box_three">
+                <p>
+                    <img src="img/KouBei/donggan-one.png" alt="">
+                    <span>人气眼</span>
+                    <img src="img/KouBei/donggan-two.png" alt="">
+                </p>
+                <p>此刻，你身边最火的店。人气越高越火爆</p>
+                <div class="LunBo">
+                    <div class="LunBo_one">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="img/KouBei/LB-left-one.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/KouBei/LB-left-two.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="LunBo_two">
+                        <div class="box_one">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/KouBei/LB-right-one.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/KouBei/LB-right-two.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/KouBei/LB-right-bottom-one.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box_two">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/KouBei/LB-right-one.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/KouBei/LB-right-bottom-one.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_four">
+                <div class="box_one">
+                    <span>大牌快抢</span>
+                    <span>每天10点限量疯抢</span>
+                    <img src="img/KouBei/huo.png">
+                    <img src="img/KouBei/jiantoua.png" alt="">
+                    <span>火热进行中</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/guanshichiba.png" alt="">
+                            <p>管氏翅吧</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/hanshikaorou.png" alt="">
+                            <p>韩时烤肉</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/niuyue.png" alt="">
+                            <p>纽约国际儿童</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box_five">
+                <div class="box_one">
+                    <span>口碑排行榜</span>
+                    <span>真评实选，找店必看</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/chuanweihuoguo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/shaokao.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/KouBei/gangshihuoguo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="box_two">
+                    <p>
+                        <a href="#">
+                            更多精彩榜单 >
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="box_six">
+                <ul id="lb">
+                    <li><img src="img/KouBei/lb-one.png" alt=""></li>
+                    <li><img src="img/KouBei/lb-two.png" alt=""></li>
+                </ul>
+                <ul class="xiaoDian">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!--<div> ++++++++++++</div>-->
+            <!--<div> ++++++++++++</div>-->
+            <!--<div> ++++++++++++</div>-->
+        </div>
+    </div>
+    <div ng-include="'home/footer.html'"></div>
+</div>
+
+</body>

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.ZhuCebox {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .ZhuCebox > .box {
+    width: 100%;
+    height: 100%; }
+    .ZhuCebox > .box header {
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 2px solid #2BB8AA; }
+    .ZhuCebox > .box .content {
+      width: 80%;
+      margin: 10px auto; }
+      .ZhuCebox > .box .content > div {
+        width: 100%;
+        height: 50px; }
+        .ZhuCebox > .box .content > div:nth-of-type(2) {
+          height: 35px; }
+        .ZhuCebox > .box .content > div:nth-of-type(4) {
+          height: 65px; }
+        .ZhuCebox > .box .content > div:nth-of-type(5) {
+          padding-top: 5px; }
+        .ZhuCebox > .box .content > div:nth-of-type(6) {
+          line-height: 55px; }
+          .ZhuCebox > .box .content > div:nth-of-type(6) > button {
+            background: #2EBDAF;
+            border: 0;
+            padding: 8px 10px;
+            outline: none; }
+            .ZhuCebox > .box .content > div:nth-of-type(6) > button > a {
+              text-decoration: none;
+              color: white; }
+        .ZhuCebox > .box .content > div:nth-of-type(7) {
+          line-height: 55px;
+          color: #2BB8AA; }
+        .ZhuCebox > .box .content > div > p {
+          font-size: 15px; }
+        .ZhuCebox > .box .content > div > input {
+          width: 100%;
+          height: 20px;
+          border: 1px solid #DCDCDC; }
+    .ZhuCebox > .box footer {
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      padding-top: 10px;
+      border-top: 1px solid #EEEEEE;
+      color: #999999; }
+
+@media screen and (max-width: 420px) {
+  .ZhuCebox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column; } }
+
+/*# sourceMappingURL=ZhuCe.css.map */

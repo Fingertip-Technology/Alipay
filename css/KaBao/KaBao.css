@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+a, p, input, div, span {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+li {
+  list-style-type: none; }
+
+.KaBaobox {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .KaBaobox header {
+    width: 100%;
+    height: 45px;
+    box-shadow: 0 1px 2px 1px #E9E9E9;
+    z-index: 10;
+    position: relative; }
+    .KaBaobox header > a:nth-of-type(1) > img {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      width: 17px;
+      height: 17px; }
+    .KaBaobox header > a:nth-of-type(2) > img {
+      position: absolute;
+      right: 3%;
+      top: 50%;
+      margin-top: -2%;
+      width: 25px;
+      height: 18px; }
+    .KaBaobox header > p {
+      position: absolute;
+      font-size: 14px;
+      border-left: 1px solid #EBEBEB;
+      padding-left: 5%;
+      font-weight: bold;
+      top: 30%;
+      left: 13%; }
+  .KaBaobox .content {
+    width: 100%;
+    height: 100%;
+    -webkit-flex: 1;
+    background: #F5F5F9;
+    position: relative;
+    overflow: auto; }
+    .KaBaobox .content .content_box {
+      width: 100%; }
+      .KaBaobox .content .content_box > .box_one > img {
+        width: 100%;
+        height: 60px; }
+      .KaBaobox .content .content_box > .box_two {
+        margin-top: 2%; }
+        .KaBaobox .content .content_box > .box_two > dl {
+          display: flex;
+          background: white; }
+          .KaBaobox .content .content_box > .box_two > dl > dt {
+            margin: 5% 3% 5% 4.5%; }
+            .KaBaobox .content .content_box > .box_two > dl > dt > img {
+              width: 66px;
+              height: 50px; }
+          .KaBaobox .content .content_box > .box_two > dl > dd {
+            border-left: 1px dashed #E6E6E6;
+            width: 70%;
+            height: 35%;
+            position: relative;
+            margin-top: 6%;
+            padding-left: 3%; }
+            .KaBaobox .content .content_box > .box_two > dl > dd > p:nth-of-type(1) {
+              font-size: 13px;
+              font-weight: bold; }
+            .KaBaobox .content .content_box > .box_two > dl > dd > p:nth-of-type(2) {
+              font-size: 10px;
+              margin-top: 2%; }
+              .KaBaobox .content .content_box > .box_two > dl > dd > p:nth-of-type(2) > a {
+                color: #898989; }
+            .KaBaobox .content .content_box > .box_two > dl > dd > p > a > img {
+              position: absolute; }
+              .KaBaobox .content .content_box > .box_two > dl > dd > p > a > img:nth-of-type(1) {
+                width: 10px;
+                height: 14px;
+                right: 0;
+                top: 16%; }
+              .KaBaobox .content .content_box > .box_two > dl > dd > p > a > img:nth-of-type(2) {
+                width: 32px;
+                height: 19px;
+                right: 10%;
+                top: 15%; }
+
+@media screen and (max-width: 420px) {
+  .KaBaobox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column; } }
+
+/*# sourceMappingURL=KaBao.css.map */
