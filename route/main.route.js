@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2017/3/17.1
+ * Created by Administrator on 2017/3/17.
  */
 Alipay.config(["$routeProvider", function($routeProvider) {
     $routeProvider
